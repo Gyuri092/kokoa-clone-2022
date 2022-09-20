@@ -1,0 +1,15 @@
+@media (orientation: landscape) {
+  #no-landscpae {
+    z-index: 999;
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    top: 0;
+    left: 0;
+    position: fixed;
+  }
+}

@@ -34,9 +34,14 @@
   height: 50px;
   border-radius: 20px;
 }
-.more-screen-header__icons i {
+.more-screen-header__icons {
+  display: flex;
+  width: 150px;
+  justify-content: space-between;
+}
+/* .more-screen-header__icons i {
   padding-left: 25px;
-}
-.more-screen-header__icons span:nth-child(2) {
+} */
+/* .more-screen-header__icons span:nth-child(2) {
   margin-left: 0;
-}
+} */

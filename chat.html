@@ -45,14 +45,41 @@
         <img src="hyunho.jpg" />
         <div class="message-row__content">
           <span class="message__author">Hyunho</span>
-          <div class="message__info">
+          <div class="message__info message__info__to-right">
             <span class="message__bubble">Hi Gyuri!</span>
+            <span class="message__time">04:27</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row message-row---own">
+        <div class="message-row__content">
+          <div class="message__info message__info__to-left">
+            <span class="message__bubble">Hi Hyunho~ Love U !</span>
             <span class="message__time">04:27</span>
           </div>
         </div>
       </div>
     </main>
 
+    <form class="reply">
+      <div class="reply__column">
+        <i class="far fa-plus-square fa-lg"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message..." />
+        <i class="far fa-smile fa-lg"></i>
+        <button>
+          <i class="fas fa-arrow-up"></i>
+        </button>
+      </div>
+
+      <div id="no-mobile">
+        <span>Your screen is too big :(</span>
+      </div>
+    </form>
+    <div id="no-landscape">
+      <span>Please change your phone to portrait mode. :(</span>
+    </div>
     <script
       src="https://kit.fontawesome.com/6478f529f2.js"
       crossorigin="anonymous"
